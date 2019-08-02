@@ -1,0 +1,13 @@
+{
+	"test.dot" : {
+		"name": "test"
+	},
+
+	"main.dot": {
+		"name": "main",
+		"description": "",
+		"author": "dobkeratops",
+		"homepage": "https://github.com/dobkeratops"
+	}
+
+}
