@@ -1,5 +1,1 @@
-{
-	"labels":{
-	
-	}
-}
+{"labels":{"hallowelt 1":{"description":"second label","accessors":["."],"uuid":"36ba3333-5738-45e1-8dd0-70cec1160201","plural":"hallowelt 1s"}}}
