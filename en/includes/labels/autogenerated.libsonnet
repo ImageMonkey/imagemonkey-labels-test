@@ -1,5 +1,1 @@
-{
-	"labels":{
-	
-	}
-}
+{"labels":{"abgcdeghi":{"description":"","accessors":["."],"uuid":"59fb1f33-bc72-410e-a20c-57b223267456","plural":"abgcdeghis"}}}
