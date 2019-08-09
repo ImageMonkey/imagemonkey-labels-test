@@ -1,1 +1,0 @@
-{"labels":{"abcdefgh":{"description":"","accessors":["."],"uuid":"a601e54d-c4b8-428b-aa15-5037914b6537","plural":"abcdefghs"}}}
