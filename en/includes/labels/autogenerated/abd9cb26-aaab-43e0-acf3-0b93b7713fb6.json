@@ -1,0 +1,12 @@
+{
+  "labels": {
+    "abcdefgh": {
+      "description": "",
+      "accessors": [
+        "."
+      ],
+      "uuid": "abd9cb26-aaab-43e0-acf3-0b93b7713fb6",
+      "plural": "abcdefghs"
+    }
+  }
+}
