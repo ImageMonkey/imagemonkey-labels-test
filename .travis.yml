@@ -20,12 +20,12 @@ before_install: |
   && mkdir -p $TRAVIS_BUILD_DIR/imagemonkey-core/data/quarantine \
   && mkdir -p $TRAVIS_BUILD_DIR/imagemonkey-core/data/unverified_donations \
   && echo "Preparing env files for travis jobs" \
-  && cp $TRAVIS_BUILD_DIR/env/env.travis $TRAVIS_BUILD_DIR/env/env_ui_tests.travis \
-  && echo "TEST_MODE=only-ui" >> $TRAVIS_BUILD_DIR/env/env_ui_tests.travis \
-  && cp $TRAVIS_BUILD_DIR/env/env.travis $TRAVIS_BUILD_DIR/env/env_api_tests.travis \
-  && echo "TEST_MODE=only-api" >> $TRAVIS_BUILD_DIR/env/env_api_tests.travis \
-  && cp $TRAVIS_BUILD_DIR/env/env.travis $TRAVIS_BUILD_DIR/env/env_unit_tests.travis \
-  && echo "TEST_MODE=only-unittest" >> $TRAVIS_BUILD_DIR/env/env_unit_tests.travis \
+  && cp $TRAVIS_BUILD_DIR/imagemonkey-core/env/env.travis $TRAVIS_BUILD_DIR/imagemonkey-core/env/env_ui_tests.travis \
+  && echo "TEST_MODE=only-ui" >> $TRAVIS_BUILD_DIR/imagemonkey-core/env/env_ui_tests.travis \
+  && cp $TRAVIS_BUILD_DIR/imagemonkey-core/env/env.travis $TRAVIS_BUILD_DIR/imagemonkey-core/env/env_api_tests.travis \
+  && echo "TEST_MODE=only-api" >> $TRAVIS_BUILD_DIR/imagemonkey-core/env/env_api_tests.travis \
+  && cp $TRAVIS_BUILD_DIR/imagemonkey-core/env/env.travis $TRAVIS_BUILD_DIR/imagemonkey-core/env/env_unit_tests.travis \
+  && echo "TEST_MODE=only-unittest" >> $TRAVIS_BUILD_DIR/imagemonkey-core/env/env_unit_tests.travis \
   && docker-compose -f env/docker/docker-compose-labels-test.travis.yml pull
 
 jobs:
